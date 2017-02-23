@@ -10,12 +10,12 @@ import org.testng.annotations.Test;
 public class jsExecution {
 	static WebDriver d;
 	@Test
-	public static void open_browser()throws Exception{
+	/*public static void open_browser()throws Exception{
 		System.setProperty("webdriver.chrome.driver","D:\\SELENIUM LEARNING\\DRIVERS\\chromedriver.exe");
 		d=new ChromeDriver();
 			d.get("http://www.seleniumhq.org/"); 
 			WebElement wb1=d.findElement(By.xpath(".//*[@id='mBody']/a[2]"));
 			JavascriptExecutor js=(JavascriptExecutor)d;
-			js.executeScript("window.scrollBy(0,200)");
+			js.executeScript("window.scrollBy(0,200)");*/
 		System.out.println("output");
 }
